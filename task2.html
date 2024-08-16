@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather</title>
+    <link rel="stylesheet" href="./task2.css">
+</head>
+
+<body>
+
+    
+    <h1>Live Weather</h1>
+    <div id ="div">
+        <form id="form" action="submit" onsubmit="weather(); return false;">
+            <h2>Enter City</h2>
+            <input id="cityName" type="text" placeholder="Enter City Name"><br><br>
+            <button type="submit">Check Weather</button>
+        </form>
+    </div>
+<div id="weather">
+    <div id="f"></div>
+    <div id="c"></div>
+    <div id="pressure"></div>
+    <div id="clouds"></div>
+    <div id="region"></div>
+    <div id="condition"></div>
+    <div id="humidity"></div>
+</div>
+    <script src="./task2.js"></script>
+
+</body>
+
+</html>
